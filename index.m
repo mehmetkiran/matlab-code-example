@@ -1,0 +1,1 @@
+meanFilter('example/d2a28d98-350a-46fd-9137-53660c16a7a1.tmp', 3);
