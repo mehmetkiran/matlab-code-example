@@ -67,5 +67,11 @@ subplot(1,2,2);
 imshow(filteredImage);
 
 
+randomString =char(floor(94*rand(1, 10)) + 32);
+baseFileName = sprintf('Image%s.png',randomString);
+fullFileName = fullfile('./savedImage/medianFilter', baseFileName);
+
+imwrite(filteredImage, fullFileName);
+
 end
 
